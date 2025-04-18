@@ -10,8 +10,8 @@ pipeline {
             steps {
                 script {
                     // Chỉ checkout main để lấy file cấu hình Kubernetes
-                    git branch: 'PR-4', 
-                    url: 'https://github.com/tranductung07012004/devOps_1_spring-petclinic-microservices.git'
+                    git branch: 'main', 
+                    url: 'https://github.com/tranductung07012004/gitops.git'
                 }
             }
         }
