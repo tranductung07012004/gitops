@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: customers-service
-        image: ${DOCKER_USERNAME}/spring-petclinic-customers-service:${IMAGE_TAG}
+        image: ${tranductung0701}/spring-petclinic-customers-service:${IMAGE_TAG}
         ports:
         - containerPort: 8080
         env:

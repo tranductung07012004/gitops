@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: discovery-server
-        image: ${DOCKER_USERNAME}/spring-petclinic-discovery-server:${IMAGE_TAG}
+        image: ${tranductung0701}/spring-petclinic-discovery-server:${IMAGE_TAG}
         ports:
         - containerPort: 8761
         resources:

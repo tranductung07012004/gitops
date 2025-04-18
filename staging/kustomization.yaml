@@ -4,17 +4,17 @@ namespace: petclinic-staging
 resources:
   - ../base
 images:
-  - name: DOCKER_USERNAME/spring-petclinic-api-gateway
+  - name: tranductung0701/spring-petclinic-api-gateway
     newTag: v1.0.0
-  - name: DOCKER_USERNAME/spring-petclinic-config-server
+  - name: tranductung0701/spring-petclinic-config-server
     newTag: v1.0.0
-  - name: DOCKER_USERNAME/spring-petclinic-customers-service
+  - name: tranductung0701/spring-petclinic-customers-service
     newTag: v1.0.0
-  - name: DOCKER_USERNAME/spring-petclinic-discovery-server
+  - name: tranductung0701/spring-petclinic-discovery-server
     newTag: v1.0.0
-  - name: DOCKER_USERNAME/spring-petclinic-vets-service
+  - name: tranductung0701/spring-petclinic-vets-service
     newTag: v1.0.0
-  - name: DOCKER_USERNAME/spring-petclinic-visits-service
+  - name: tranductung0701/spring-petclinic-visits-service
     newTag: v1.0.0
-  - name: DOCKER_USERNAME/spring-petclinic-genai-service
+  - name: tranductung0701/spring-petclinic-genai-service
     newTag: v1.0.0

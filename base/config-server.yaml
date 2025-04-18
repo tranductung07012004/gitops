@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: config-server
-        image: ${DOCKER_USERNAME}/spring-petclinic-config-server:${IMAGE_TAG}
+        image: ${tranductung0701}/spring-petclinic-config-server:${IMAGE_TAG}
         ports:
         - containerPort: 8888
         resources:
