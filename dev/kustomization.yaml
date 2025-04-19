@@ -13,7 +13,7 @@ images:
   - name: tranductung0701/spring-petclinic-discovery-server
     newTag: latest
   - name: tranductung0701/spring-petclinic-vets-service
-    newTag: latest
+    newTag: cf91d2f
   - name: tranductung0701/spring-petclinic-visits-service
     newTag: latest
   - name: tranductung0701/spring-petclinic-genai-service
