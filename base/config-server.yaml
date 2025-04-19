@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: config-server
   annotations:
-    argocd.argoproj.io/sync-wave: "-2"  # Chạy đầu tiên (số âm thấp hơn chạy trước)
+    argocd.argoproj.io/sync-wave: "-2"
 spec:
   selector:
     matchLabels:
@@ -31,7 +31,7 @@ kind: Service
 metadata:
   name: config-server
   annotations:
-    argocd.argoproj.io/sync-wave: "-2"  # Chạy đầu tiên
+    argocd.argoproj.io/sync-wave: "-2"
 spec:
   selector:
     app: config-server
