@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: vets-service
-        image: tranductung0701/spring-petclinic-vets-service:${IMAGE_TAG}
+        image: tranductung0701/spring-petclinic-vets-service:latest
         ports:
         - containerPort: 8080
         env:

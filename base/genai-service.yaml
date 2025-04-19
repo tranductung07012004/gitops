@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: genai-service
-        image: tranductung0701/spring-petclinic-genai-service:${IMAGE_TAG}
+        image: tranductung0701/spring-petclinic-genai-service:latest
         ports:
         - containerPort: 8080
         env:
