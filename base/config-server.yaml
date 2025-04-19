@@ -2,6 +2,8 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: config-server
+  annotations:
+    argocd.argoproj.io/sync-wave: "-2"  # Chạy đầu tiên (số âm thấp hơn chạy trước)
 spec:
   selector:
     matchLabels:
