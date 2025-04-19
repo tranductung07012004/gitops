@@ -5,16 +5,16 @@ resources:
   - ../base
 images:
   - name: tranductung0701/spring-petclinic-api-gateway
-    newTag: 5c18b7e
+    newTag: latest
   - name: tranductung0701/spring-petclinic-config-server
-    newTag: 5c18b7e
+    newTag: latest
   - name: tranductung0701/spring-petclinic-customers-service
-    newTag: 5c18b7e
+    newTag: latest
   - name: tranductung0701/spring-petclinic-discovery-server
-    newTag: 5c18b7e
+    newTag: latest
   - name: tranductung0701/spring-petclinic-vets-service
-    newTag: 5c18b7e
+    newTag: latest
   - name: tranductung0701/spring-petclinic-visits-service
-    newTag: 5c18b7e
+    newTag: latest
   - name: tranductung0701/spring-petclinic-genai-service
-    newTag: 5c18b7e
+    newTag: latest
